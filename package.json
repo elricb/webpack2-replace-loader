@@ -1,7 +1,9 @@
 {
   "name": "webpack2-replace-loader",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "String.replace loader",
+  "url" : "https://www.npmjs.com/package/webpack2-replace-loader",
+  "email" : "elricdesigns@gmail.com",
   "main": "index.js",
   "scripts": {
     "test": "n/a"
@@ -16,5 +18,9 @@
   "license": "MIT",
   "dependencies": {
     "loader-utils": "^1.1.0"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/elricdesigns/webpack2-replace-loader"
   }
 }

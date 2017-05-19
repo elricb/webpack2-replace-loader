@@ -1,0 +1,20 @@
+{
+  "name": "webpack2-replace-loader",
+  "version": "1.1.1",
+  "description": "String.replace loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "n/a"
+  },
+  "keywords": [
+    "webpack2",
+    "loader",
+    "string",
+    "replace"
+  ],
+  "author": "Elricb",
+  "license": "MIT",
+  "dependencies": {
+    "loader-utils": "^1.1.0"
+  }
+}

@@ -10,7 +10,8 @@ module.exports = function(source) {
     );
 
     Object.keys(options.replace).map(function($_replace) {
-        source = source.replace($_replace, options.replace[$_replace]);
+        let regex = new RegExp($_replace, 'g');
+        source = source.replace(regex, options.replace[$_replace]);
     });
 
     return source;
